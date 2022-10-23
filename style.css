@@ -19,3 +19,104 @@ body {
   background-color: #bdc3c7;
 }
 
+.profil{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: auto;
+  width: 300px;
+  }
+
+.foto{
+  width: 300px;
+  
+}
+  
+.hlavicka{
+  flex-grow: 0;
+  margin; 0;
+    }
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  width: 50px;
+  float: right;
+      }
+  
+img{
+  background-color: #31363b;
+  margin-bottom: 0%;
+ 
+}
+
+h1 {
+  margin-top: 0%;
+  padding: 15px;
+}
+p {
+  padding: 15px;
+  }
+ul{
+  margin:0%;
+  color: white;
+}
+.obsah{
+flex-grow: 2 ;
+background-color: #31363b;
+width: 300px;
+font-family: 'Source Sans Pro';
+color:white;
+}
+
+.jmeno{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.odkazy{
+  
+  background-color: #31363b;
+  width: 300px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  color: white;
+ 
+ list-style-type: none;
+ border-top: 2px solid #3f464d;
+
+
+}
+
+      .portfolio{
+        flex-basis: 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
+      .facebook{
+        flex-basis: 50%;
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
+      .twitter{
+        flex-basis: 50%;
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
+a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .portfolio:hover{
+    text-decoration: none;
+    background-color: #e74c3c;
+  }
+  .facebook:hover{
+    text-decoration: none;
+    background-color: #3b5998;
+  }
+.twitter:hover{
+  text-decoration: none;
+    background-color: #1da1f2;
+}
+  
