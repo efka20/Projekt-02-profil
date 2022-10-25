@@ -20,6 +20,30 @@ body {
 }
 
 
+.profil{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 300px;
+  box-shadow: 10px 10px 8px #888888;
+    }
+
+
+  
+.hlavicka{
+  display: flex;
+  margin: 0;
+  height: 200px;
+  overflow: auto; 
+   
+    }
+
+.foto{
+  width: 300px;
+  margin-bottom: 0;
+}   
+
 .logo {
   background-color: #b92e81;
   border-radius: 50%;
@@ -27,33 +51,8 @@ body {
   height: 50px;
   float: right;
   clear: both;
-  display:inline-flex;
- 
-     
-}
-
-.profil{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 300px;
-  
-  }
-
-.foto{
-  width: 300px;
-  margin-bottom: 0;
-  
-}
-  
-.hlavicka{
-  
-  margin: 0;
-    }
-
-    
-        
+  overflow: auto;
+}        
   
 img{
   background-color: #31363b;
@@ -71,24 +70,26 @@ ul{
   margin:0%;
   color: white;
 }
+
 .obsah{
 flex-grow: 2;
 background-color: #31363b;
 width: 300px;
 font-family: 'Source Sans Pro';
 color:white;
-
 }
 
 .jmeno{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: .6em 1em;
-        text-align: center;
+  text-align: center;
 }
+
 ul{
   margin: 0;
   padding: 0;
 }
+
 .odkazy{
   display: flex;
   flex-direction: row;
@@ -99,11 +100,8 @@ ul{
   font-family: 'Montserrat';
   text-transform: uppercase;
   color: white;
- 
- list-style-type: none;
- border-top: 2px solid #3f464d;
-
-
+  list-style-type: none;
+  border-top: 2px solid #3f464d;
 }
 
 
@@ -115,21 +113,22 @@ ul{
         padding: .4em 1em;
         border-bottom: 2px solid #3f464d;
       }
+
       .facebook{
-        
         flex-basis: 50%;
         display: inline-block; 
         padding: .4em 1em;
         text-align: center;
         border-right: 2px solid #3f464d;
       }
+
       .twitter{
         text-align: center;
         flex-basis: 50%;
         display: inline-block; 
         padding: .4em 1em;
-        
       }
+
 a{
   text-decoration: none;
   color: white;
@@ -143,8 +142,8 @@ a{
     text-decoration: none;
     background-color: #3b5998;
   }
-.twitter:hover{
-  text-decoration: none;
+  .twitter:hover{
+    text-decoration: none;
     background-color: #1da1f2;
 }
   
